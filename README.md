@@ -50,18 +50,18 @@ todo: add more information about authors (key contributions, etc.)
 
 ## Important Papers
 
-### General (Seminal Papers)
+### Seminal Papers
 
-- Dalvi, Nilesh, et al. "Adversarial classification." Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. 2004.
+- Dalvi, Nilesh, et al. "Adversarial classification." Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining. 2004. ![](https://img.shields.io/badge/type-theory-brightgreen.svg) 
 - Lowd, Daniel, and Christopher Meek. "Adversarial learning." Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining. 2005. ![](https://img.shields.io/badge/type-theory-brightgreen.svg) 
 - Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples." arXiv preprint arXiv:1412.6572 (2014). ![](https://img.shields.io/badge/type-digital-brightgreen.svg) 
 
 ### Physical Adversarial ML
-- Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-theory-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
+- Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
 
 - Sharif, Mahmood, et al. "Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition." Proceedings of the 2016 acm sigsac conference on computer and communications security. 2016.
-- Boloor, Adith, et al. "Attacking vision-based perception in end-to-end autonomous driving models." Journal of Systems Architecture 110 (2020): 101766.
-- Yang, Kaichen, et al. "Robust Roadside Physical Adversarial Attack Against Deep Learning in Lidar Perception Modules." Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security. 2021.
+- Boloor, Adith, et al. "Attacking vision-based perception in end-to-end autonomous driving models." Journal of Systems Architecture 110 (2020): 101766. ![](https://img.shields.io/badge/type-simulated-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
+- Yang, Kaichen, et al. "Robust Roadside Physical Adversarial Attack Against Deep Learning in Lidar Perception Modules." Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security. 2021. ![](https://img.shields.io/badge/sensor-LiDAR-orange.svg)
 
 ### Defense
 - Madry, Aleksander, et al. "Towards deep learning models resistant to adversarial attacks." arXiv preprint arXiv:1706.06083 (2017).
