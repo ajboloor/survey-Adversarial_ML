@@ -69,22 +69,30 @@ todo: add more information about authors (key contributions, etc.)
 ---
 
 ### Physical Adversarial ML
-#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
-- Stickers are placed on a traffic sign to fool traffic sign detection models
 
-#### Cao, Yulong, et al. "Adversarial objects against lidar-based autonomous driving systems." arXiv preprint arXiv:1907.05418 (2019). ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-LiDAR-orange.svg)
+#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
+- Stickers are placed on a traffic sign to fool traffic sign detection models
 
 #### Sharif, Mahmood, et al. "Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition." Proceedings of the 2016 acm sigsac conference on computer and communications security. 2016. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
 - Attacks against facial recognition models that are physically realizable and inconspicuous
 - They design adversarially painted eye glass frames that fool facial recognition models
 
-#### Boloor, Adith, et al. "Attacking vision-based perception in end-to-end autonomous driving models." Journal of Systems Architecture 110 (2020): 101766. ![](https://img.shields.io/badge/type-simulated-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
+#### Boloor, Adith, et al. "Attacking vision-based perception in end-to-end autonomous driving models." Journal of Systems Architecture 110 (2020): 101766. ![simulated](https://img.shields.io/badge/type-simulated-brightgreen.svg "CARLA") ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
+
+#### Cao, Yulong, et al. "Adversarial sensor attack on lidar-based perception in autonomous driving." Proceedings of the 2019 ACM SIGSAC conference on computer and communications security. 2019. ![](https://img.shields.io/badge/type-simulated-brightgreen.svg) ![](https://img.shields.io/badge/sensor-LiDAR-orange.svg)
+
+#### Cao, Yulong, et al. "Adversarial objects against lidar-based autonomous driving systems." arXiv preprint arXiv:1907.05418 (2019). ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-LiDAR-orange.svg)
+
 #### Yang, Kaichen, et al. "Robust Roadside Physical Adversarial Attack Against Deep Learning in Lidar Perception Modules." Proceedings of the 2021 ACM Asia Conference on Computer and Communications Security. 2021. ![](https://img.shields.io/badge/sensor-LiDAR-orange.svg)
+- Builds upon Yulong Cao's works, with a focus on real-world realizability and defense discussion
+- Attacks against [PointRCNN](https://openaccess.thecvf.com/content_CVPR_2019/html/Shi_PointRCNN_3D_Object_Proposal_Generation_and_Detection_From_Point_Cloud_CVPR_2019_paper.html) for white-box attacks and [PV-RCNN](https://openaccess.thecvf.com/content_CVPR_2020/html/Shi_PV-RCNN_Point-Voxel_Feature_Set_Abstraction_for_3D_Object_Detection_CVPR_2020_paper.html) for black box attacks
 
 ---
+
 ### Defense
 #### Madry, Aleksander, et al. "Towards deep learning models resistant to adversarial attacks." arXiv preprint arXiv:1706.06083 (2017).
 #### Wong, Eric, and Zico Kolter. "Provable defenses against adversarial examples via the convex outer adversarial polytope." International Conference on Machine Learning. PMLR, 2018.
 #### Cohen, Jeremy, Elan Rosenfeld, and Zico Kolter. "Certified adversarial robustness via randomized smoothing." International Conference on Machine Learning. PMLR, 2019.
 #### Wu, Tong, Liang Tong, and Yevgeniy Vorobeychik. "Defending against physically realizable attacks on image classification." arXiv preprint arXiv:1909.09552 (2019).
+
 ---
