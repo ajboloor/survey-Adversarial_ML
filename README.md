@@ -5,6 +5,7 @@ Literature survey of Adversarial Machine Learning especially in the context of s
 ## Page Structure
 - Important Conferences
 - Important People and Groups
+- Important Terminology
 - Important Papers
 - Uses [shield.io](https://shields.io/) badges to show information at a glance (ex: ![](https://img.shields.io/badge/impact--factor-33.49-purple), ![](https://img.shields.io/badge/sensor-camera-orange.svg))
 
@@ -50,6 +51,18 @@ todo: add more information about authors (key contributions, etc.)
 ```
 ---
 
+## Important Terminology
+
+### Attack types based on DNN model knowledge
+#### White-box attacks
+#### Black-box attacks
+
+### Types based on attack setting
+#### Theoretical
+#### Digital (usually against image classifiers)
+#### Simulation
+#### Physical
+
 ## Important Papers
 
 ### Seminal Papers
@@ -64,7 +77,14 @@ todo: add more information about authors (key contributions, etc.)
 
 #### Papernot, Nicolas, et al. "The limitations of deep learning in adversarial settings." 2016 IEEE European symposium on security and privacy (EuroS&P). IEEE, 2016. ![](https://img.shields.io/badge/type-digital-brightgreen.svg)  
 
-#### Papernot, Nicolas, et al. "Practical black-box attacks against machine learning." Proceedings of the 2017 ACM on Asia conference on computer and communications security. 2017.
+#### Papernot, Nicolas, et al. "Practical black-box attacks against machine learning." Proceedings of the 2017 ACM on Asia conference on computer and communications security. 2017. ![](https://img.shields.io/badge/type-digital-brightgreen.svg) 
+
+- Precursor to Eykholt's physical attacks with stickers on traffic signs
+- Introduces black-box attacks against Google's, Amazon's and MetaMind's DNN classification models
+- Assumptions
+  * No access to DNN structure and parameters
+  * No access to large training dataset
+- A synthetic dataset is constructed by the adversary to train a substitute for the DNN classifier
 
 ---
 
