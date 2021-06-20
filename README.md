@@ -84,7 +84,9 @@ todo: add more information about authors (key contributions, etc.)
 - Assumptions
   * No access to DNN structure and parameters
   * No access to large training dataset
-- A synthetic dataset is constructed by the adversary to train a substitute for the DNN classifier
+  * Accses to only the output labels of the oracle model
+- A synthetic dataset is constructed by the adversary to train a *substitute* model for the DNN classifier
+- DNN is expected to misclassify inputs due to transferability with the *substitute* model
 
 ---
 
