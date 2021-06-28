@@ -100,7 +100,7 @@ todo: add more information about authors (key contributions, etc.)
 - Proposes *Expectation Over Transformation (EOT)* that produces robust adversarial examples that are simultaneously adversarial over an entire distribution of transformations
 - This allows them to 3D print adversarial objects in which the object can be misclassified from various orientations
 
-#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
+#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
 - Proposes RP2 to generate physical perturbations in the form of stickers to fool DNN-based classifiers
 - Cannonically known for misclassifying stop-signs by placing stickers on it
 - Takes into consideration widely changing distances and angles of the viewing camera with respect to traffic signs
@@ -108,6 +108,7 @@ todo: add more information about authors (key contributions, etc.)
 - 80-100% accuracy on various models attacked in stationary and drive-by testing datasets
 - They do show the generalizability of the attack by attacking regular DNNs like Inception to misclassify objects like microwaves
 - White-box attacks
+- Focuses on *classifiers* and not *detectors*
 
 #### Zhao, Yue, et al. "Seeing isn't believing: Towards more robust adversarial attack against real world object detectors." Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. 2019.
 
