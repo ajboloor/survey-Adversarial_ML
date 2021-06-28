@@ -92,12 +92,24 @@ todo: add more information about authors (key contributions, etc.)
 
 ### Physical Adversarial ML
 
-#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
-- Stickers are placed on a traffic sign to fool traffic sign detection models
-
 #### Sharif, Mahmood, et al. "Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition." Proceedings of the 2016 acm sigsac conference on computer and communications security. 2016. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg)
 - Attacks against facial recognition models that are physically realizable and inconspicuous
 - They design adversarially painted eye glass frames that fool facial recognition models
+
+#### Athalye, Anish, et al. "Synthesizing robust adversarial examples." International conference on machine learning. PMLR, 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
+- Proposes *Expectation Over Transformation (EOT)* that produces robust adversarial examples that are simultaneously adversarial over an entire distribution of transformations
+- This allows them to 3D print adversarial objects in which the object can be misclassified from various orientations
+
+#### Eykholt, Kevin, et al. "Robust physical-world attacks on deep learning visual classification." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018. ![](https://img.shields.io/badge/type-physical-brightgreen.svg) ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
+- Proposes RP2 to generate physical perturbations in the form of stickers to fool DNN-based classifiers
+- Cannonically known for misclassifying stop-signs by placing stickers on it
+- Takes into consideration widely changing distances and angles of the viewing camera with respect to traffic signs
+- They propose an evaluation method to study the effectiveness of physical perturbations
+- 80-100% accuracy on various models attacked in stationary and drive-by testing datasets
+- They do show the generalizability of the attack by attacking regular DNNs like Inception to misclassify objects like microwaves
+- White-box attacks
+
+#### Zhao, Yue, et al. "Seeing isn't believing: Towards more robust adversarial attack against real world object detectors." Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security. 2019.
 
 #### Boloor, Adith, et al. "Attacking vision-based perception in end-to-end autonomous driving models." Journal of Systems Architecture 110 (2020): 101766. ![simulated](https://img.shields.io/badge/type-simulated-brightgreen.svg "CARLA") ![](https://img.shields.io/badge/sensor-camera-orange.svg) 
 
